@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Lesson3.Layout.TDGiang</string>
+    <string name="red">Red</string>
+    <string name="white">White</string>
+    <string name="blue">Blue</string>
+    <string name="set_color">Set color</string>
+    <string name="clear">Clear</string>
+    <string name="color_text">Color</string>
+    <string name="red_color">#F44336</string>
+    <string name="white_color">#FFEBEE</string>
+    <string name="blue_color">#3F51B5</string>
+    <string name="button_5">Button 5</string>
+    <string name="button_3">Button 3</string>
+    <string name="button_4">Button 4</string>
+    <string name="button_1">Button 1</string>
+    <string name="button_2">Button 2</string>
+    <string name="color_1">Color 1</string>
+    <string name="color_2">Color 2</string>
+    <string name="color_3">Color 3</string>
+</resources>

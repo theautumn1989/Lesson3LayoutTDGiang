@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="0"
+    android:padding="@dimen/padding_activity"
+    android:stretchColumns="2"
+    tools:context=".activity.ExerciseTowActivity">
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn_color_1"
+            android:text="@string/color_1"
+            android:textColor="@color/color_red" />
+
+        <Button
+            android:id="@+id/btn_color_2"
+            android:text="@string/color_2"
+            android:textColor="@color/color_yellow" />
+
+        <Button
+            android:id="@+id/btn_color_3"
+            android:layout_span="2"
+            android:text="@string/color_3"
+            android:textColor="@color/color_blue" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/tv_color"
+            android:layout_span="4"
+            android:background="@color/color_base" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_column="2"
+            android:text="Clear" />
+    </TableRow>
+
+</TableLayout>

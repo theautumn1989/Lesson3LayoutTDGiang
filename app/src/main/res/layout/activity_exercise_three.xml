@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_activity"
+    tools:context=".activity.ExerciseThreeActivity">
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_5" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn5"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:layout_marginRight="-30dp"
+        android:layout_toLeftOf="@id/btn5"
+        android:text="@string/button_3" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn5"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:layout_marginLeft="-30dp"
+        android:layout_toRightOf="@id/btn5"
+        android:text="@string/button_4" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn3"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:layout_marginRight="-30dp"
+        android:layout_toLeftOf="@id/btn3"
+        android:text="@string/button_1" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn4"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:layout_marginLeft="-30dp"
+        android:layout_toRightOf="@id/btn4"
+        android:text="@string/button_2" />
+
+</RelativeLayout>
